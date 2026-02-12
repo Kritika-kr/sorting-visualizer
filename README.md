@@ -4,8 +4,6 @@
   <img src="screenshots/preview.png" width="800"/>
 </p>
 
-Built and customized by **Kritika Kumari**
-
 An interactive web application that visually demonstrates how popular sorting algorithms work through real-time animations. This project helps students and developers better understand sorting techniques by turning abstract concepts into engaging visual experiences.
 
 ---
