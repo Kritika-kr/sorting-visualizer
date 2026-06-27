@@ -1,0 +1,21 @@
+#include "services/AlgorithmService.h"
+
+namespace studio {
+
+StepResponse AlgorithmService::sorting(const std::string& algorithm, const std::vector<int>& values) const {
+  return sortingAlgorithms_.run(algorithm, values);
+}
+
+StepResponse AlgorithmService::searching(const std::string& algorithm, const std::vector<int>& values, int target) const {
+  return searchingAlgorithms_.run(algorithm, values, target);
+}
+
+StepResponse AlgorithmService::structures(const std::string& algorithm) const {
+  return structureAlgorithms_.run(algorithm);
+}
+
+StepResponse AlgorithmService::graphs(const std::string& algorithm) const {
+  return graphAlgorithms_.run(algorithm);
+}
+
+}  // namespace studio
